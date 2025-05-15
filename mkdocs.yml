@@ -1,0 +1,63 @@
+site_name: Lets Go Golfing! Wiki
+site_url: https://nuclearwarhead55.github.io/Lets-Go-Golfing-/ # Updated for your GitHub Pages
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  palette:
+    # Palette toggle for light/dark mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/golf # Example logo, can be changed
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Patch Notes: updates.md
+  # Add other top-level sections here as you create them, for example:
+  # - Guides:
+  #   - Gameplay Basics: guides/gameplay.md
+  #   - Courses: guides/courses.md
+  # - Community: community.md
+
+# Copyright
+copyright: Copyright &copy; 2024 Your Name / Lets Go Golfing! Team # Update this
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord # Example, if you have a Discord server
+      link: https://discord.gg/your-invite-code # Update this
+    # - icon: fontawesome/brands/roblox # If there's a relevant Roblox group/profile
+    #   link: https://www.roblox.com/... 
