@@ -43,11 +43,11 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Patch Notes: updates.md
-  # Add other top-level sections here as you create them, for example:
-  # - Guides:
-  #   - Gameplay Basics: guides/gameplay.md
-  #   - Courses: guides/courses.md
-  # - Community: community.md
+  - Shop: https://www.roblox.com/games/16491648982
+  - Settings: https://discord.gg/Khtp323N6h
+  - Achievements: '#'
+  - Extras: '#'
+  - COMING SOON: '#'
 
 # Copyright
 copyright: Copyright &copy; 2024 t2g2
