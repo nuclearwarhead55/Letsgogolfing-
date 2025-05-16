@@ -1,32 +1,29 @@
 site_name: Lets Go Golfing! Wiki
-site_url: https://nuclearwarhead55.github.io/Lets-Go-Golfing-/ # Updated for your GitHub Pages
+site_url: https://nuclearwarhead55.github.io/Letsgogolfing/
 
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
   palette:
-    # Palette toggle for light/dark mode
     - scheme: default
+      primary: white
+      accent: black
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
+      primary: black
+      accent: white
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Roboto
+    text: Quicksand
     code: Roboto Mono
   icon:
-    logo: material/golf # Example logo, can be changed
+    logo: material/golf
+
+extra_css:
+  - styles/letsgo.css
 
 # Extensions
 markdown_extensions:
@@ -53,7 +50,7 @@ nav:
   # - Community: community.md
 
 # Copyright
-copyright: Copyright &copy; 2024 Your Name / Lets Go Golfing! Team # Update this
+copyright: Copyright &copy; 2024 Lets Go Golfing! Team
 
 extra:
   social:

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+body, .md-content {
+  background: #111 !important;
+  color: #fff !important;
+}
+
+.md-button, .md-typeset .md-button {
+  border-radius: 2em;
+  font-weight: bold;
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 1.2em;
+  background: #fff;
+  color: #111;
+  border: 3px solid #111;
+  margin: 0.5em 0;
+  transition: background 0.2s, color 0.2s;
+}
+.md-button:hover, .md-typeset .md-button:hover {
+  background: #111;
+  color: #fff;
+}
+
+/* Orange accent for special buttons */
+.md-button.coming-soon {
+  background: #ffb380;
+  color: #fff;
+  border-color: #ffb380;
+}
+
+/* Headings and navigation */
+h1, h2, h3, h4, h5, h6, .md-nav__title, .md-nav__link {
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* Optional: Make nav and sidebar high-contrast */
+.md-sidebar, .md-header, .md-footer {
+  background: #111 !important;
+  color: #fff !important;
+}
+
+/* Optional: Add more contrast to code blocks */
+.md-typeset pre, .md-typeset code {
+  background: #222 !important;
+  color: #fff !important;
+} 
