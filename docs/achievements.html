@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Go Golfing Wiki - Achievements</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .achievements-container { max-width: 900px; margin: 40px auto; background: rgba(255,255,255,0.95); border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); padding: 32px; }
+        .achievements-container h1 { text-align: center; margin-bottom: 24px; color: #2e5d3b; }
+        .back-link { display: inline-block; margin-bottom: 24px; color: #2e5d3b; text-decoration: underline; font-weight: bold; }
+        .achievement-block { 
+            background-color: #f0f0f0; 
+            border: 1px solid #ddd; 
+            border-left: 5px solid #2e5d3b; 
+            padding: 15px; 
+            margin-bottom: 20px; 
+            border-radius: 8px; 
+        }
+        .achievement-block h2 { 
+            font-size: 1.4em; 
+            color: #2e5d3b; 
+            margin-top: 0; 
+            margin-bottom: 5px; 
+        }
+        .achievement-block .description { 
+            font-size: 1em; 
+            color: #333; 
+            margin-bottom: 8px; 
+        }
+        .achievement-block .flavor-text { 
+            font-style: italic; 
+            color: #555; 
+            margin-bottom: 8px; 
+            font-size: 0.95em;
+        }
+        .achievement-block .rewards { 
+            font-size: 0.9em; 
+            color: #777; 
+            font-weight: bold;
+        }
+        .completed {
+            border-left-color: #4CAF50; /* Green for completed */
+        }
+        .completed h2 {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="achievements-container">
+        <a href="index.html" class="back-link">&larr; Back to Main Menu</a>
+        <h1>Achievements</h1>
+
+        <div class="achievement-block completed">
+            <h2>One Shot Wonder</h2>
+            <p class="description">Get a Hole in One on any hole</p>
+            <p class="flavor-text">Some of the best performances are those that take the least amount of time.</p>
+            <p class="rewards">Completed! 75XP</p>
+        </div>
+
+        <div class="achievement-block">
+            <h2>Negative Notation</h2>
+            <p class="description">Get a Negative Score on Any Hole</p>
+            <p class="flavor-text">Don't worry, it's a setup for you so we can make you look better.</p>
+            <p class="rewards">Rewards: 100 XP / ??? (Unable to read)</p> 
+        </div>
+
+        <div class="achievement-block">
+            <h2>Secret Service</h2>
+            <p class="description">Find a Ghost Flag on any course</p>
+            <p class="flavor-text">Sometimes well hidden secrets are discoverable by accident.</p>
+            <p class="rewards">Rewards: 75 XP / ??? (Unable to read)</p>
+        </div>
+
+        <div class="achievement-block">
+            <h2>Practice Perfection</h2>
+            <p class="description">Spend 5 minutes in Practice Mode on any hole</p>
+            <p class="flavor-text">"That's enough practice swings, just hit the ball!"</p>
+            <p class="rewards">Completed! 100 XP</p>
+        </div>
+        
+        <!-- More achievements will be added here -->
+
+    </div>
+</body>
+</html> 
