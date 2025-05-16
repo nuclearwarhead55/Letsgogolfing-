@@ -50,11 +50,13 @@ nav:
   # - Community: community.md
 
 # Copyright
-copyright: Copyright &copy; 2024 Lets Go Golfing! Team
+copyright: Copyright &copy; 2024 t2g2
 
 extra:
   social:
-    - icon: fontawesome/brands/discord # Example, if you have a Discord server
-      link: https://discord.gg/your-invite-code # Update this
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/Khtp323N6h
+    - icon: fontawesome/brands/roblox
+      link: https://www.roblox.com/games/16491648982
     # - icon: fontawesome/brands/roblox # If there's a relevant Roblox group/profile
     #   link: https://www.roblox.com/... 

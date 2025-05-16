@@ -5,6 +5,10 @@ Welcome to the official community wiki for the Roblox game **Let's Go Golfing!**
 ## About
 This wiki provides up-to-date information, patch notes, guides, and community resources for Let's Go Golfing! on Roblox. It is built using [MkDocs](https://www.mkdocs.org/) with the Material for MkDocs theme, and is deployed via GitHub Pages.
 
+- **Roblox Game:** [Let's Go Golfing!](https://www.roblox.com/games/16491648982)
+- **Discord:** [Join the community](https://discord.gg/Khtp323N6h)
+- **Project Owner:** t2g2
+
 ## Features
 - Patch notes and update logs
 - Game mechanics and how-to guides (coming soon)
